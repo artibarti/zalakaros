@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/zalakaros/static/js/main.5f970545.chunk.js",
+    "main.js.map": "/zalakaros/static/js/main.5f970545.chunk.js.map",
+    "runtime-main.js": "/zalakaros/static/js/runtime-main.f304688e.js",
+    "runtime-main.js.map": "/zalakaros/static/js/runtime-main.f304688e.js.map",
+    "static/js/2.8682db1f.chunk.js": "/zalakaros/static/js/2.8682db1f.chunk.js",
+    "static/js/2.8682db1f.chunk.js.map": "/zalakaros/static/js/2.8682db1f.chunk.js.map",
+    "index.html": "/zalakaros/index.html",
+    "static/js/2.8682db1f.chunk.js.LICENSE.txt": "/zalakaros/static/js/2.8682db1f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f304688e.js",
+    "static/js/2.8682db1f.chunk.js",
+    "static/js/main.5f970545.chunk.js"
+  ]
+}
