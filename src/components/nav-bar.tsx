@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 
 export function AppNavbar() {
 	return (
-		<Navbar id="app-navbar" collapseOnSelect expand="lg" bg="light" variant="light">
+		<Navbar id="app-navbar" fixed="top" collapseOnSelect expand="lg" bg="light" variant="light">
 			<Container>
 				<Navbar.Brand href="#home">Zalakaros</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
