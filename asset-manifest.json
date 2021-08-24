@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/zalakaros/static/css/main.fe0814e5.chunk.css",
-    "main.js": "/zalakaros/static/js/main.83131dbe.chunk.js",
-    "main.js.map": "/zalakaros/static/js/main.83131dbe.chunk.js.map",
+    "main.css": "/zalakaros/static/css/main.30e288fe.chunk.css",
+    "main.js": "/zalakaros/static/js/main.1e3ea1a7.chunk.js",
+    "main.js.map": "/zalakaros/static/js/main.1e3ea1a7.chunk.js.map",
     "runtime-main.js": "/zalakaros/static/js/runtime-main.f304688e.js",
     "runtime-main.js.map": "/zalakaros/static/js/runtime-main.f304688e.js.map",
     "static/css/2.c490997a.chunk.css": "/zalakaros/static/css/2.c490997a.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.1ec7f949.chunk.js.map": "/zalakaros/static/js/2.1ec7f949.chunk.js.map",
     "index.html": "/zalakaros/index.html",
     "static/css/2.c490997a.chunk.css.map": "/zalakaros/static/css/2.c490997a.chunk.css.map",
-    "static/css/main.fe0814e5.chunk.css.map": "/zalakaros/static/css/main.fe0814e5.chunk.css.map",
+    "static/css/main.30e288fe.chunk.css.map": "/zalakaros/static/css/main.30e288fe.chunk.css.map",
     "static/js/2.1ec7f949.chunk.js.LICENSE.txt": "/zalakaros/static/js/2.1ec7f949.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f304688e.js",
     "static/css/2.c490997a.chunk.css",
     "static/js/2.1ec7f949.chunk.js",
-    "static/css/main.fe0814e5.chunk.css",
-    "static/js/main.83131dbe.chunk.js"
+    "static/css/main.30e288fe.chunk.css",
+    "static/js/main.1e3ea1a7.chunk.js"
   ]
 }
