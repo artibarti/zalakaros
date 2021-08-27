@@ -1,36 +1,44 @@
 import { Button } from "react-bootstrap";
+import { Trans } from "react-i18next";
 import { HomeContainer, HomePanel } from "./home-container";
 
 export function Home() {
 
-    const bookingPanel = (
+	const panelTitle = (i18nKey: string, defaultText: string) => {
+		return (<div className="display-1 py-5 text-center">
+			<Trans i18nKey={i18nKey}>{defaultText}</Trans>
+		</div>);
+	};
+
+	const bookingPanel = (
 		<HomePanel id="booking" className="bg-info text-center">
-			<div className="display-1 py-5 text-center">Book your stay now</div>
-			<Button variant="dark">Go to booking</Button>
-			<div className="h2 py-5 text-center">Maybe some slideshow in the background</div>
+			{panelTitle("home.booking-panel.book-your-stay-now", "Book your stay now")}
+			<Button variant="dark">
+				<Trans i18nKey="home.booking-panel.go-to-booking">Go to Booking</Trans>
+			</Button>
 		</HomePanel>
 	);
 
 	const activitiesPanel = (
 		<HomePanel id="activities" className="bg-light text-center">
-			<div className="display-1 py-5">What to do here and nearby?</div>
-			<div className="h1 py-3">Some fancy stuff goes here</div>
+			{panelTitle("home.activities-panel.what-to-do", "What to do here and nearby?")}
 		</HomePanel>
 	);
 
 	const contactPanel = (
 		<HomePanel id="contact" className="bg-warning text-center">
-			<div className="display-2 py-5">Contact us</div>
-			<div className="h4 py-3">Some messenger plugin, contact info goes here</div>
-			<Button variant="dark" size="lg">Text us</Button>
+			{panelTitle("home.contact-panel.do-you-have-questions", "Do you have questions?")}
+			<Button variant="dark" size="lg">
+				<Trans i18nKey="home.contact-panel.contact-us">Contact us</Trans>
+			</Button>
 		</HomePanel>
 	);
 
-    return (
-        <HomeContainer>
-            {bookingPanel}
+	return (
+		<HomeContainer>
+			{bookingPanel}
 			{activitiesPanel}
 			{contactPanel}
-        </HomeContainer>
-    );
+		</HomeContainer>
+	);
 }

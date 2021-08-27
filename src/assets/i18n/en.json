@@ -1,0 +1,21 @@
+{
+    "nav-bar": {
+        "booking": "Booking",
+        "activities": "Activities",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "home": {
+        "booking-panel": {
+            "book-your-stay-now": "Book your stay now",
+            "go-to-booking": "Go to Booking"
+        },
+        "activities-panel": {
+            "what-to-do": "What to do here and nearby?"
+        },
+        "contact-panel": {
+            "do-you-have-questions": "Do you have any question?",
+            "contact-us": "Contact us"
+        }    
+    }
+}

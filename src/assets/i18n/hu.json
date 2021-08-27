@@ -1,0 +1,21 @@
+{
+    "nav-bar": {
+        "booking": "Foglalás",
+        "activities": "Programok",
+        "contact": "Kapcsolat",
+        "language": "Nyelv"
+    },
+    "home": {
+        "booking-panel": {
+            "book-your-stay-now": "Foglalj most",
+            "go-to-booking": "Váltás a Bookingra"
+        },
+        "activities-panel": {
+            "what-to-do": "Milyen programok várnak rád?"
+        },
+        "contact-panel": {
+            "do-you-have-questions": "Van bármi kérdésed?",
+            "contact-us": "Zaklass minket bátran"
+        }    
+    }
+}
