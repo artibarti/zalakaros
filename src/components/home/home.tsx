@@ -11,9 +11,9 @@ export function Home() {
 	};
 
 	const bookingPanel = (
-		<HomePanel id="booking" className="bg-info text-center">
+		<HomePanel id="booking" className="zk-bg-primary text-center text-light">
 			{panelTitle("home.booking-panel.book-your-stay-now", "Book your stay now")}
-			<Button variant="dark">
+			<Button variant="light" size="lg" className="zk-bg-secondary text-light">
 				<Trans i18nKey="home.booking-panel.go-to-booking">Go to Booking</Trans>
 			</Button>
 		</HomePanel>
@@ -26,7 +26,7 @@ export function Home() {
 	);
 
 	const contactPanel = (
-		<HomePanel id="contact" className="bg-warning text-center">
+		<HomePanel id="contact" className="zk-bg-secondary text-center">
 			{panelTitle("home.contact-panel.do-you-have-questions", "Do you have questions?")}
 			<Button variant="dark" size="lg">
 				<Trans i18nKey="home.contact-panel.contact-us">Contact us</Trans>

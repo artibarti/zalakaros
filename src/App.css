@@ -1,3 +1,5 @@
+@import "./assets//css//commons.css";
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
   display: none;
@@ -10,6 +12,6 @@ body {
 }
 
 :target{
-  padding-top:70px; /* = to height of navbar */
-  margin-top:-70px;
+  padding-top:56px; /* = to height of navbar */
+  margin-top:-56px;
 }

@@ -1,0 +1,14 @@
+:root {
+    --zk-primary: rgb(0, 117, 196);
+    --zk-secondary: rgb(239, 160, 11);
+    --zk-tertiary: rgb(214, 81, 8);
+}
+
+.zk-primary { color: var(--zk-primary) !important; }
+.zk-bg-primary { background-color: var(--zk-primary) !important; }
+
+.zk-secondary { color: var(--zk-secondary) !important; }
+.zk-bg-secondary { background-color: var(--zk-secondary) !important; }
+
+.zk-tertiary { color: var(--zk-tertiary) !important; }
+.zk-bg-tertiary { background-color: var(--zk-tertiary) !important; }

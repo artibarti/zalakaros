@@ -19,7 +19,7 @@ export function AppNavbar(props: AppNavBarProps) {
 	}
 
 	return (
-		<Navbar id="app-navbar" fixed="top" collapseOnSelect expand="lg" bg="light" variant="light">
+		<Navbar id="app-navbar" fixed="top" collapseOnSelect expand="lg" className="zk-bg-primary" variant="dark">
 			<Container>
 				<Navbar.Brand href="#home">Zalakaros</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
